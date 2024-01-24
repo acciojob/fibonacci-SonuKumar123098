@@ -5,7 +5,7 @@ function fibonacci(num) {
 	let z=0;
 	if(num===1)return 0;
 	if(num<=2)return 1;
-	for(let n=2;n<num;n++){
+	for(let n=3;n<=num;n++){
 		z=x+y;
 		x=y;
 		y=z;
